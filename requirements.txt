@@ -1,0 +1,14 @@
+numpy==1.26.4
+open3d==0.18.0
+mediapy==1.1.2
+lpips==0.1.4
+scikit-image==0.21.0
+tqdm==4.66.2
+trimesh==4.3.2
+matplotlib==3.7.0
+submodules/diff-surfel-rasterization
+submodules/diff-id-rasterization
+submodules/diff-feature-rasterization
+submodules/simple-knn
+plyfile
+opencv-python
