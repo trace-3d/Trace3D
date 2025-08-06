@@ -23,13 +23,13 @@
 </p>
 
 <p align="center">
-    <a href=''>
+    <a href='https://arxiv.org/pdf/2508.03227'>
       <img src='https://img.shields.io/badge/Paper-arXiv-red?style=plastic&logo=adobeacrobatreader&logoColor=red' alt='Paper arXiv'>
     </a>
-    <a href=''>
+    <!-- <a href=''>
       <img src='https://img.shields.io/badge/Video-green?style=plastic&logo=arXiv&logoColor=green' alt='Video Demo'>
-    </a>
-    <a href=''>
+    </a> -->
+    <a href='https://trace-3d.github.io/'>
       <img src='https://img.shields.io/badge/Project-Page-blue?style=plastic&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
     </a>
 </p>
