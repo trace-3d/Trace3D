@@ -1,8 +1,7 @@
 output/
 data/
 
-submodules/simple-knn
-submodules/diff-surfel-rasterization
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
