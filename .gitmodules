@@ -1,0 +1,3 @@
+[submodule "submodules/diff-surfel-rasterization"]
+	path = submodules/diff-surfel-rasterization
+	url = https://github.com/hbb1/diff-surfel-rasterization.git
