@@ -23,7 +23,7 @@ elif test $opt == "merge_patches"; then
         -m ${output} 
 
 elif test $opt == "remove_ab_gaus"; then
-    python remove_ab_gaus \
+    python remove_ab_gaus.py \
         -s ${source}\
         -m ${output} \
         --sam_folder split \

@@ -101,7 +101,7 @@ def prune_mask(gaussians,viewpoints,pipe, background,unseen=-1,alpha_w=False):
     p_mask = ((weights!=unseen).sum(-1)==0)
     return p_mask.cuda()
 
-def training(dataset, opt, pipe, testing_iterations, saving_iterations, checkpoint_iterations, checkpoint,alpha_w):
+def training(dataset, opt, pipe, testing_iterations, saving_iterations, checkpoint_iterations, alpha_w):
 
     first_iter = 0
     tb_writer = prepare_output_and_logger(dataset)
@@ -392,7 +392,7 @@ if __name__ == "__main__":
     network_gui.init(args.ip, args.port)
     torch.autograd.set_detect_anomaly(args.detect_anomaly)
     training(lp.extract(args), op.extract(args), pp.extract(args), args.test_iterations, args.test_iterations, args.checkpoint_iterations,\
-                 args.start_checkpoint, args.alpha_w)
+                 args.alpha_w)
 
     # All done
     print("\nTraining complete.")
